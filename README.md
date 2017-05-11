@@ -6,6 +6,10 @@ React Native Authorization/Login with Firebase
 ### 42. Review of Common Auth Flows 8:20
 
 * Login screenshot
+* We're going to haev one page with the Signup and Signin
+* This is going to be a very detailed and complex Authorization app
+* For Signup - We're going to get a phone number and email
+* For Signin - Phone number and Code
 * 
 
 ### 43. The Details of One Time Passwords 10:04
