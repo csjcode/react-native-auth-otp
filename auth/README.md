@@ -53,7 +53,30 @@ React Native Authorization/Login with Firebase
 * Comparison screenshots
 
 ### 46. Layout of Google Cloud Functions 9:49
+
+### New User Workflow
+
+#### Cloud Function 1
+1. User enters email and phone number -
+2. verify phone is not in use (hasn;t been used to log in)
+3. Create a new user record(FIREBASE)
+4. Respond that User was created
+
+#### Cloud Function 2
+5. User requests to login with phone number
+6. Generate a code
+7. Save the code to the user's record
+8. Text code to the user
+
+#### Cloud Function 3
+9. User enter code
+10. Compare codes
+11. Mark code as no longer valid
+12. Send user a JWT to identify them (FIREBASE)
+
 ### 47. Firebase Project Setup 7:21
+
+
 ### 48. Deploying a Firebase Project 4:35
 ### 49. Testing Deployed Functions 7:42
 ### 50. Project File Structure 5:48
