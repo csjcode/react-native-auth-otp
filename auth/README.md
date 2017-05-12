@@ -31,22 +31,27 @@ React Native Authorization/Login with Firebase
 
 1. User request OTP
 2. Confirm request
-3. Generate code, save on backend
-4. Text user a code
+3. Generate code, save on backend (FIREBASE)
+4. Text user a code (TWILIO)
 5. User sends us corect code
 6. Compare codes on the server
-7. Send user a JWT to identify them
+7. Send user a JWT to identify them (FIREBASE)
 
 * This solves the problem of time gap - token is saved in server
 * This solved identification
 
 ### 44. Tech Stack with Google Cloud Functions 8:26
 
-
-
-
+* When we generate code we'll save to FIREBASE
+* When we text a coe we'll use TWILIO
+* Send user a JWT to identify - FIREBASE
+* We'll use GOOGLE CLOUD FUNCTIONS (similar to AWS Lambda) for some code needed on external server. Can access firebase
+* REACT NATVE for the View
 
 ### 45. Traditional Servers vs Google Cloud Functions 8:21
+
+
+
 ### 46. Layout of Google Cloud Functions 9:49
 ### 47. Firebase Project Setup 7:21
 ### 48. Deploying a Firebase Project 4:35
