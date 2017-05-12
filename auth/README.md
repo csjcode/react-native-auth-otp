@@ -50,7 +50,7 @@ React Native Authorization/Login with Firebase
 
 ### 45. Traditional Servers vs Google Cloud Functions 8:21
 
-
+* Comparison screenshots
 
 ### 46. Layout of Google Cloud Functions 9:49
 ### 47. Firebase Project Setup 7:21
